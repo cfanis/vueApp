@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Ron Swanson" src="./assets/images.jpeg">
-    <Quote msg="Welcome to the Ron Swanson Quote Page"/>
+    <Quote />
   </div>
 </template>
 

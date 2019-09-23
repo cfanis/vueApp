@@ -1,6 +1,5 @@
 <template>
   <div class="quote">
-    <br>
     <h3> {{ quote }} </h3>
     <br>
     <button type="button" @click="loadQuote">Random Ron Swanson Quote!</button>
@@ -15,10 +14,10 @@ export default {
     return {
       quote: null
     }
-  }, 
-  props: {
-    msg: String
   },
+  created: function() {
+    this.loadQuote()
+  }, 
   methods: {
     loadQuote : function () {
       axios
@@ -34,15 +33,7 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
+button {
   color: #42b983;
 }
 </style>
