@@ -1,5 +1,5 @@
 # RonSwansonQuotes
-Simple app using vue.js and axios.
+Simple app to demonstrate using vue.js and axios.
 
 ## Project setup
 ```
