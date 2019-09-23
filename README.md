@@ -1,5 +1,5 @@
 # RonSwansonQuotes
-Page displays random Ron Swanson quotes.  Simple app using vue.js and axios.
+Simple app using vue.js and axios.
 
 ## Project setup
 ```
