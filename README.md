@@ -1,4 +1,4 @@
-# vueApp
+# RonSwansonQuotes - A random Ron Swanson quote page.  Simple app using vue.js and axios.
 
 ## Project setup
 ```
